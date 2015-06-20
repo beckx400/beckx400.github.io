@@ -24,7 +24,7 @@ body {
 	position: absolute;
 	margin-left: 500px;
 	margin-top: 57px;
-	width: 30%;
+	width: 25%;
 	background-color: #fcfcfc;
 	padding: 5px; 
 }
@@ -60,7 +60,7 @@ body {
 
 hr {
 	width: 100%;
-	border: 2px solid green;
+	border: 2px solid #285E28;
 }
 
 h1 {
