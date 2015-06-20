@@ -23,9 +23,9 @@ body {
 #picture {
 	float: right;
 	position: absolute;
-	margin-left: 500px;
-	margin-top: 64px;
-	width: 28%;
+	margin-left: 530px;
+	margin-top: 72px;
+	width: 35%;
 	background-color: #fcfcfc;
 	padding: 5px; 
 }
@@ -37,7 +37,7 @@ body {
 
 #profile-statement{
     float: left;
-    width: 50%;
+    width: 60%;
     font-family: Arial;
     margin-top: -20px;
     font-size:120%;
