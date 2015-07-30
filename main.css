@@ -1,0 +1,191 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,200);
+
+/*reset css to defaults */
+body, h1, h2, h3, h4, p, ul, ol, li, a {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-size:100%;
+	text-decoration: none;
+}
+
+body {
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+main {
+	background-color: hsla(202, 100%, 54%, 0.2);
+}
+header, footer {
+	background: radial-gradient(#001035, #00001a);
+	padding: 10px 0 10px 0;
+	text-align: center;
+}
+footer{
+	padding: 30px;
+}
+
+h1 {
+	font-weight: 400;
+	font-size: 80px;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+h2 {
+	width: 100%;
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 28px;
+	border-bottom: 1px solid #000;
+	padding-top: 5px;
+}
+h3 {
+	padding-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+h4{
+	padding: 5px 0 5px 0;
+}
+.contact img {
+	float: left;
+	box-shadow: 2px 2px 4px #003153;
+	margin: 10px 50px 20px 0;
+}
+li {
+	padding: 3px;
+}
+a {
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+a:hover{
+	color: #005173;
+}
+.tagline {
+	text-align: center;
+	background-color: #003153;
+	padding: 5px 0 5px 0;
+}
+.tagline p{
+	font-weight: 200;
+	width: 70%;
+	margin: 0 auto;
+	font-size: 20px;
+	color: white;
+}
+.contact {
+	width: 60%;
+	margin: 0 auto;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.contact ul{
+   	list-style-type: none;
+   	padding-top: 70px;
+   	line-height: 40px;
+}
+.education, .experience, .badges{
+	width: 80%;
+	margin: 0 auto;
+	font-size: 16px;
+}
+.experience{
+	clear: both;
+}
+.dates {
+	float: right;
+	padding-right: 10px;
+}
+
+.work-content ul {
+	margin-left: 18px;
+}
+.work-content ul:last-child{
+	padding: 5px;
+}
+#QBP, #VNF {
+	background-color: #dddddd;
+	padding: 0 10px 0 10px;
+	box-shadow: 2px 2px 4px #003153;
+}
+#QBP {
+	background-image: url('images/qbpsmall.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+#VNF {
+	background-image: url('images/vnfsmall.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+#sap{
+	background-color: #eeeeee;
+	padding: 0 10px 0 10px;
+	background-image: url('images/sapsmall.png');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	box-shadow: 2px 2px 4px #003153;
+}
+.education{
+	background-color: #eeeeee;
+	box-shadow: 2px 2px 4px #003153;
+}
+.education ul{
+	box-sizing: border-box;
+	padding: 0 10px 0 10px;
+	margin-left: 25px
+}
+.badges ul{
+	padding: 5px 0 5px 0;
+	margin: auto;
+    width: 60%;
+}
+.badges li{
+	display: inline;
+	text-decoration: none;
+}
+.badges li:first-child{
+	margin-right: 50px;
+}
+
+
+/* Landing Page Logo */
+.logo {
+	background: radial-gradient(#001035, #00001a);
+	padding: 75px 0 75px 0;
+	position: absolute;
+  	top:50%;
+  	transform:translateY(-50%);
+  	width: 100%;
+  	text-align: center;
+}
+.logo h1 a {
+	padding-bottom: 0;
+	font-weight: 400;
+	font-size: 80px;
+	letter-spacing: 0px;
+	color: #ffffff;
+	transition: all 0.6s ease;
+}
+.logo h1 a:hover{
+	letter-spacing: 20px;
+	text-shadow: 2px 2px 2px #000000;
+	border-left: 3px solid #FFFFFF;
+	border-right: 3px solid #FFFFFF;
+	padding: 0 3px 0 11px;
+}
+.logo h2 a{
+	color: white;
+	font-size: 40px;
+	font-weight: 200;
+	opacity: 0;
+	padding: 5px 0 5px 0;
+	transition: all 1.5s ease 0.5s;
+}
+.logo h1:hover ~ h2 a{
+	opacity: 0.9;
+	text-shadow: 1px 2px 2px #000000;
+}
