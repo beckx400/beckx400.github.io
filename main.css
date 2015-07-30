@@ -36,7 +36,6 @@ h2 {
 	margin: 0 auto;
 	font-weight: 700;
 	font-size: 28px;
-	border-bottom: 1px solid #000;
 	padding-top: 5px;
 }
 h3 {
@@ -62,6 +61,9 @@ a {
 }
 a:hover{
 	color: #005173;
+}
+.content-title{
+	border-bottom: 1px solid #000;
 }
 .tagline {
 	text-align: center;
